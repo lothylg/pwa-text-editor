@@ -22,6 +22,8 @@ registerRoute(({ request }) => request.mode === 'navigate', ({ event }) => {
   return pageCache.handle({ request: event.request });
 });
 
+// look for registration routes
+
 registerRoute(
   ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
   new StaleWhileRevalidate({

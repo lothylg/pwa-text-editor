@@ -23,6 +23,7 @@ if (typeof editor === 'undefined') {
   loadSpinner();
 }
 
+//had to point the registration to the actual file so added . 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./src-sw.js')
