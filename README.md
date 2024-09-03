@@ -9,5 +9,11 @@ Once cloning the application, I recommend running in the integrated terminal fro
 
 ### Links to the deployed application
 
+https://github.com/lothylg/pwa-text-editor
+
+https://drive.google.com/file/d/1UkFQCRY1mncgF5F4pRncIzDj0DSooMH7/view
+
+
+
 ### Screenshots of the application
 
